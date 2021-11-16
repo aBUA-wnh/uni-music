@@ -1,0 +1,1 @@
+<view class="album-cover"><view class="cover-style"></view><image class="cover-image" src="{{imageUrl}}" mode="scaleToFill"></image><block wx:if="{{playCount!==''}}"><view class="player-amount"><u-icon vue-id="0a753766-1" name="play-right" color="#ffffff" size="22" bind:__l="__l"></u-icon><text class="player-amount-text">{{playCount}}</text></view></block></view>

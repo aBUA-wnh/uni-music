@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@varlet/ui": "^1.22.6",
+    "uni-request": "^1.0.2",
+    "uview-ui": "^1.8.4"
+  }
+}

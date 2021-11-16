@@ -1,0 +1,145 @@
+@import 'uview-ui/theme.scss';
+
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+
+/* 颜色变量 */
+
+/* 行为相关颜色 */
+$uni-color-primary: #007aff;
+$uni-color-success: #4cd964;
+$uni-color-warning: #f0ad4e;
+$uni-color-error: #dd524d;
+
+/* 文字基本颜色 */
+$uni-text-color:#333;//基本色
+$uni-text-color-inverse:#fff;//反色
+$uni-text-color-grey:#999;//辅助灰色，如加载更多的提示信息
+$uni-text-color-placeholder: #808080;
+$uni-text-color-disable:#c0c0c0;
+
+/* 背景颜色 */
+$uni-bg-color:#ffffff;
+$uni-bg-color-grey:#f8f8f8;
+$uni-bg-color-hover:#f1f1f1;//点击状态颜色
+$uni-bg-color-mask:rgba(0, 0, 0, 0.4);//遮罩颜色
+
+/* 边框颜色 */
+$uni-border-color:#c8c7cc;
+
+/* 尺寸变量 */
+
+/* 文字尺寸 */
+$uni-font-size-sm:12px;
+$uni-font-size-base:14px;
+$uni-font-size-lg:16;
+
+/* 图片尺寸 */
+$uni-img-size-sm:20px;
+$uni-img-size-base:26px;
+$uni-img-size-lg:40px;
+
+/* Border Radius */
+$uni-border-radius-sm: 2px;
+$uni-border-radius-base: 3px;
+$uni-border-radius-lg: 6px;
+$uni-border-radius-circle: 50%;
+
+/* 水平间距 */
+$uni-spacing-row-sm: 5px;
+$uni-spacing-row-base: 10px;
+$uni-spacing-row-lg: 15px;
+
+/* 垂直间距 */
+$uni-spacing-col-sm: 4px;
+$uni-spacing-col-base: 8px;
+$uni-spacing-col-lg: 12px;
+
+/* 透明度 */
+$uni-opacity-disabled: 0.3; // 组件禁用态的透明度
+
+/* 文章场景相关 */
+$uni-color-title: #2C405A; // 文章标题颜色
+$uni-font-size-title:20px;
+$uni-color-subtitle: #555555; // 二级标题颜色
+$uni-font-size-subtitle:26px;
+$uni-color-paragraph: #3F536E; // 文章段落颜色
+$uni-font-size-paragraph:15px;
+
+
+
+/* APP主题色 */
+$theme-color: #EB4D44; /* 强调和突出的文字、按钮和icon */
+$link-color: #5EA3EA; /* 链接文字颜色 */
+$white-color: #fff; /* 白色 */
+$font-color-important: #333; /* 重要文字信息、内容标题信息 */
+$font-color-ordinary: #666; /* 普通级段落信息、用户名、icon等 */
+$font-color-secondary: #888; /* 辅助、次要文字信息 */
+$font-color-grey: #999; /* 辅助、次要文字信息、排序等 */
+$font-color-disable: #ccc; /* 下载列表及失效列表的icon等 */
+
+$bg-color-icon: #ffebea; /* 图标背景色 */
+$bg-color-btn: #FDFDFD; /* 播放组件背景色 */
+$bg-color: #F8F8F8; /* 内容区域背景色 */
+$split-line-color: rgba(0, 0, 0, 0.1); /* 分割线 */
+
+  /* 阴影 */
+$box-shadow: 0 8rpx 40rpx 0 rgba(0,0,0,.15);
+
+@mixin flex-column {
+	display: flex;
+	flex-direction: column;
+}
+
+@mixin flex-column-center {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+@mixin flex-row {
+		display: flex;
+		flex-direction: row;
+	}
+	
+@mixin flex-row-center {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+@mixin absolute-auto {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+@mixin text-overflow-2 {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+}
+
+@mixin text-overflow-1 {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 1;
+}

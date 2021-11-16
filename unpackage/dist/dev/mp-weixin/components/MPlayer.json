@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "u-circle-progress": "/node-modules/uview-ui/components/u-circle-progress/u-circle-progress",
+    "u-icon": "/node-modules/uview-ui/components/u-icon/u-icon"
+  },
+  "component": true
+}

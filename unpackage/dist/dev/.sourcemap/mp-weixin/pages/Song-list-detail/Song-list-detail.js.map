@@ -1,0 +1,1 @@
+{"version":3,"sources":["uni-app:///main.js"],"names":["createPage","Page"],"mappings":";;;;;;;;;;kDAAA;AACA;AACA,4H;AACAA,UAAU,CAACC,uBAAD,CAAV,C","file":"pages/Song-list-detail/Song-list-detail.js","sourcesContent":["import 'uni-pages';\nimport Vue from 'vue'\nimport Page from './pages/Song-list-detail/Song-list-detail.vue'\ncreatePage(Page)"],"sourceRoot":""}

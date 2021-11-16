@@ -1,0 +1,1 @@
+<view class="subTitle"><text class="title">{{title}}</text><block wx:if="{{text}}"><view class="button"><text class="text">{{text}}</text><u-icon vue-id="6822ae1b-1" name="arrow-right" color="$font-color-important" size="22" bind:__l="__l"></u-icon></view></block></view>

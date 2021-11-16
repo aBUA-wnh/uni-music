@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "发现",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "header": "/components/index/Header",
+    "quick-navigation": "/components/index/QuickNavigation",
+    "songlist": "/components/index/Songlist",
+    "songlist-swiper": "/components/index/SonglistSwiper"
+  }
+}

@@ -1,0 +1,11 @@
+
+.songlist-swiper {
+	width: 100%;
+	background: $white-color;
+	padding: 20rpx 0;
+}
+.songlist-swiper-box {
+	width: 91%;
+	margin: 0 auto;
+}
+

@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/Find/Find",
+    "pages/Mine/Mine",
+    "pages/SongListDetail/SongListDetail",
+    "pages/Playing/Playing"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "音乐",
+    "navigationBarBackgroundColor": "#ffffff",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#3E3A39",
+    "selectedColor": "#333",
+    "backgroundColor": "#fff",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/Find/Find",
+        "text": "发现",
+        "iconPath": "static/icon_tabbar_find_o.png",
+        "selectedIconPath": "static/icon_tabbar_find.png"
+      },
+      {
+        "pagePath": "pages/Mine/Mine",
+        "text": "我的",
+        "iconPath": "static/icon_tabbar_mine_o.png",
+        "selectedIconPath": "static/icon_tabbar_mine.png"
+      }
+    ]
+  },
+  "permission": {},
+  "usingComponents": {
+    "m-player": "/components/MPlayer"
+  }
+}
